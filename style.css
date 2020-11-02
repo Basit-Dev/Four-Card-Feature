@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  color: hsl(234, 12%, 34%);
+}
+body {
+  background: hsl(240, 1%, 86%);
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+.article {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.article h1 {
+  font-size: 3.6rem;
+  font-weight: 200;
+  letter-spacing: -1px;
+  margin-bottom: 0.6rem;
+}
+.article h2 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.article p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.grid_container {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 4rem;
+  width: 100%;
+}
+.left_section,
+.middle_section,
+.middle_section_lower,
+.right_section {
+  border-radius: 5px;
+  background: rgb(239, 237, 237);
+  padding: 2.5rem;
+}
+.left_section,
+.right_section {
+  align-self: center;
+}
+.left_section {
+  border-top: solid 3pt hsl(180, 62%, 55%);
+}
+.middle_section {
+  border-top: solid 3pt hsl(0, 78%, 62%);
+}
+.middle_section_lower {
+  border-top: solid 3pt hsl(34, 97%, 64%);
+}
+.right_section {
+  border-top: solid 3pt hsl(212, 86%, 64%);
+}
+.middle_section_lower {
+  margin-top: 3rem;
+}
+.section_heading h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.section_heading p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+.section_heading img {
+  display: block;
+  margin-left: auto;
+  margin-top: 2rem;
+}
+.attribution {
+  margin: 3rem 3rem;
+  text-align: center;
+}
+@media only screen and (max-width: 950px) {
+  .wrapper {
+    position: relative;
+    top: 3rem;
+    left: 0;
+    transform: translate(0, 0);
+    width: 100%;
+  }
+  .article {
+    width: 80%;
+  }
+  .article h1 {
+    font-size: 2.5rem;
+  }
+  .article h2 {
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+  }
+  .article p {
+    font-size: 1.4rem;
+    font-weight: 200;
+  }
+  .left_section,
+  .middle_section,
+  .middle_section_lower,
+  .right_section {
+    margin-top: 2.5rem;
+  }
+  .grid_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 4rem;
+    width: 80%;
+    margin: 3rem auto;
+  }
+  .section_heading h3 {
+    font-size: 1.3rem;
+  }
+  .section_heading img {
+    width: 40px;
+  }
+}
