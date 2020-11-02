@@ -7,7 +7,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  <title>Frontend Mentor | Four card feature section</title>
+  <title>Frontend Mentor | Four hero_card feature section</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -26,15 +26,15 @@
     </header>
     <!-- Grid parent created -->
     <div class="grid_container">
-      <section class="left_section">
+      <section class="hero_card left">
         <!-- h3 p and img removed from parent container and used grid_container to target elements for styling purposes -->
           <h3>Supervisor</h3>
           <p>Monitors activity to identify project roadblocks</p>
           <img src="images/icon-supervisor.svg" alt="Supervisor Icon" />
       </section>
       <!-- Grid requires a middle parent section container to stack cards as columns  -->
-      <div class="middle_section_container">
-        <section class="middle_section">
+      <div class="grid_center_container">
+        <section class="hero_card center">
             <h3>Team Builder</h3>
             <p>
               Scans our talent network to create the optimal team for your
@@ -42,14 +42,14 @@
             </p>
             <img src="images/icon-team-builder.svg" alt="Team Builder icon" />
         </section>
-        <!-- Lower card stacked as a column -->
-        <section class="middle_section_lower">
+        <!-- Lower hero_card stacked as a column -->
+        <section class="hero_card center_bottom">
             <h3>Karma</h3>
             <p>Regularly evaluates our talent to ensure quality</p>
             <img src="images/icon-karma.svg" alt="Karma Icon" />
         </section>
       </div>
-      <section class="right_section">
+      <section class="hero_card right">
           <h3>Calculator</h3>
           <p>
             Uses data from past projects to provide better delivery estimates
