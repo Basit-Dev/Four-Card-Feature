@@ -10,6 +10,7 @@ html {
   font-family: "Poppins", sans-serif;
   font-size: 62.5%;
   color: hsl(234, 12%, 34%);
+  scroll-behavior: smooth;
 }
 body {
   background: hsl(0, 0%, 98%);
@@ -92,7 +93,7 @@ body {
 .grid_container img {
   display: block;
   margin-left: auto;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 /* END OF HERO CARD SECTION */
 .attribution {
