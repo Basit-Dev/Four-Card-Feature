@@ -54,16 +54,18 @@ body {
 
 /* HERO CARD SECTION */
 .grid {
-  margin-top: 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
+  width: 900px;
+  margin: 2.5rem auto;
 }
 .hero_card {
   border-radius: 5px;
   background: #ffffff;
   padding: 1.8rem;
   box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
 }
 .left {
   border-top: solid 3pt hsl(180, 62%, 55%);
@@ -166,6 +168,9 @@ body {
   /* END OF GRID */
 
   /* HERO CARD */
+  .hero_card {
+    max-width: 600px;
+  }
   .hero_card img {
     width: 40px;
   }
