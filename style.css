@@ -64,9 +64,6 @@ body {
   background: #ffffff;
   padding: 1.8rem;
   box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.2);
-  /* Max width and height ensures the hero_cards do not increase in size, if not used then on some devices the article goes off screen. */
-  max-width: 100%;
-  max-height: 200px;
 }
 .left {
   border-top: solid 3pt hsl(180, 62%, 55%);
